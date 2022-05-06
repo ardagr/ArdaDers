@@ -9,7 +9,7 @@ namespace DersProje.Models.Concrete
 {
     public class DersProjeDbContext: DbContext
     {
-        public DersProjeDbContext(DbContextOptions options):base(options)
+        public DersProjeDbContext()
         {
 
         }

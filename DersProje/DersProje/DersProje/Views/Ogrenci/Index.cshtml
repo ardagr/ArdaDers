@@ -4,21 +4,31 @@
 *@
 @{
 }
-<table>
-    <tr>
-        <th>Company</th>
-        <th>Contact</th>
-        <th>Country</th>
-    </tr>
-    @foreach (var item in Model)
-    {
+
+<table class="table">
+    <thead>
         <tr>
-            <th>@item.Donemi</th>
-            <th>@item.Bolum</th>
-            <th>@item.OgrenciDers</th>
+            <th scope="col">OgrenciNo</th>
+            <th scope="col">OgrenciIsmi</th>
+            <th scope="col">OgrenciSoyad</th>
+            <th scope="col">Donemi</th>
+            <th scope="col">İŞLEM</th>
+
+
         </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.OgrenciNo</td>
+            <td>@item.OgrenciIsmi</td>
+            <td>@item.OgrenciSoyad</td>
+            <td>@item.Donemi</td>
+            <td> <a  asp-action="Detay" asp-route-id="@item.OgrenciId" class="btn btn-sm btn-primary">Detay</a></td>
 
+        </tr>
+        }
 
-
+    </tbody>
 </table>

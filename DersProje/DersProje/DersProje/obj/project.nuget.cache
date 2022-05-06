@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y/DWFazf4lI5t23gjA5RqrP3s5L8BCKSk2QDcpoBAceX4rnyYwW0Za0X7TzkJpg5utDw5rVCcw62ngOX7UWq9A==",
+  "dgSpecHash": "AunuHpX6tQb6OJYeXt15YLnJDcCVPlh+u2mCkfUXjbgFOSasn+Z0BHhM8vM7XkMBOT5VVTbVaVix2bP9G9khqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\DersProje\\DersProje\\DersProje\\DersProje.csproj",
+  "projectFilePath": "C:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\Desktop\\ArdaDers\\DersProje\\DersProje\\DersProje\\DersProje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Web ve Mobil Öğle.DESKTOP-MTU4EKB\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
