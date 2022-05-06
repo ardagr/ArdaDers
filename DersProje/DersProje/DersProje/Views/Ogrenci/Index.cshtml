@@ -1,0 +1,24 @@
+﻿@model List<DersProje.Models.Entity.Ogrenci>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.Donemi</th>
+            <th>@item.Bolum</th>
+            <th>@item.OgrenciDers</th>
+        </tr>
+    }
+
+
+
+</table>
