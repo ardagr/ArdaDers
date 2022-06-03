@@ -1,0 +1,37 @@
+﻿@model List<Yolcu>
+
+@{ 
+    Layout = "_LayoutAdmin";
+}
+<h3>BİLETLER</h3>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th scope="col">Nereden</th>
+            <th scope="col">Nereye</th>
+            <th scope="col">Saat</th>
+            <th scope="col">KoltukNo</th>
+            <th scope="col">Ad</th>
+            <th scope="col">Soyad</th>
+            <th scope="col">İŞLEMLER</th>
+
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var yolcu in Model)
+        {
+        <tr>
+            <td>@yolcu.Nereden</td>
+            <td>@yolcu.Nereye</td>
+            <td>@yolcu.Saat</td>
+            <td>@yolcu.KoltukNo</td>
+            <td>@yolcu.Ad</td>
+            <td>@yolcu.Soyad</td>
+            <td><a class="btn btn-primary btn-sm" asp-action="yolcuSil" asp-controller="admin" asp-route-id="@yolcu.YolcuId" >SİL</a></td>
+        </tr>
+        }
+    </tbody>
+</table>

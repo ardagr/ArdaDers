@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OtobusBileti.Data\OtobusBileti.Data.csproj" />
+    <ProjectReference Include="..\OtobusBileti.Entity\OtobusBileti.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

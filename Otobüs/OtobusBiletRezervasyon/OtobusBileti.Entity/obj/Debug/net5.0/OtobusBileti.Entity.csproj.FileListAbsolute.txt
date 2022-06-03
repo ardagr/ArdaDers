@@ -1,0 +1,12 @@
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\bin\Debug\net5.0\OtobusBileti.Entity.deps.json
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\bin\Debug\net5.0\OtobusBileti.Entity.dll
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\bin\Debug\net5.0\ref\OtobusBileti.Entity.dll
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\bin\Debug\net5.0\OtobusBileti.Entity.pdb
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\obj\Debug\net5.0\OtobusBileti.Entity.csproj.AssemblyReference.cache
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\obj\Debug\net5.0\OtobusBileti.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\obj\Debug\net5.0\OtobusBileti.Entity.AssemblyInfoInputs.cache
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\obj\Debug\net5.0\OtobusBileti.Entity.AssemblyInfo.cs
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\obj\Debug\net5.0\OtobusBileti.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\obj\Debug\net5.0\OtobusBileti.Entity.dll
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\obj\Debug\net5.0\ref\OtobusBileti.Entity.dll
+C:\Users\ARDA\Desktop\Otobüs\OtobusBiletRezervasyon\OtobusBileti.Entity\obj\Debug\net5.0\OtobusBileti.Entity.pdb

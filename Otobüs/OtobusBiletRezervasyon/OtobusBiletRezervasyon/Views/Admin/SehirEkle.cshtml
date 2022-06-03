@@ -1,0 +1,38 @@
+﻿@model List<Sehir>
+
+@{
+    Layout = "_LayoutAdmin";
+}
+
+
+<h1>Sehirler</h1>
+
+<div class="col-6">
+    <form asp-action="SehirEkle" asp-controller="Admin" method="post">
+        <label>Sehir ekle</label>
+        <input type="text" name="sehir" minlength="3" required="" />
+        <button type="submit" class="btn btn-primary btn-sm">EKLE</button>
+    </form>
+
+    <table class="table">
+        <thead>
+            <tr>
+               
+                <th scope="col">ŞEHİR</th>
+                <th scope="col">İŞLEM</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var sehir in Model)
+            {
+                <tr>
+                    <td> @sehir.SehirAd</td>
+                    <td> <a class="btn btn-sm btn-primary" asp-controller="admin" asp-action="SehirSil" asp-route-id="@sehir.SehirId">SİL</a></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

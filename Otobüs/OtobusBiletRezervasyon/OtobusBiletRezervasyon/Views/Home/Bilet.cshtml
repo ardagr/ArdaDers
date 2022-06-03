@@ -1,0 +1,59 @@
+﻿
+@model List<Yol>
+
+
+@if (Model.Count() == 0)
+{
+<center>
+    <h1>İSTENİLEN TARİHTE SEFER BULUNAMADI</h1>
+</center>
+}
+else
+{
+    @foreach (var item in Model)
+    {<form asp-action="Yolcu" asp-controller="Home" method="post">
+            <div class="w-100 ">
+                <div class="row">
+                    <div class="col-3 border border-info ">
+                        <p class="fs-2 text-center">NEREDEN</p>
+                        <p class="text-center fs-4">@item.Nereden</p>
+                        <input type="hidden" name="Nereden" value="@item.Nereden" />
+                    </div>
+                    <div class="col-3 border border-info">
+                        <p class="fs-2 text-center">NEREYE</p>
+                        <p class="text-center fs-4">@item.Nereye</p>
+                        <input type="hidden" name="Nereye" value="@item.Nereye" />
+                    </div>
+                    <div class="col-2 border border-info">
+                        <p class="fs-2 text-center ">TARİH</p>
+                        <p class="text-center fs-4">@item.Tarih</p>
+                        <input type="hidden" name="Tarih" value="@item.Tarih" />
+                    </div>
+                    <div class="col-2 border border-info">
+                        <p class="fs-2 text-center "> SEFER SAATİ</p>
+                        <p class="text-center fs-4">@item.Saat</p>
+                        <input type="hidden" name="Saat" value="@item.Saat" />
+
+
+
+                    </div>
+                    <div class="col-1 border border-info">
+                        <p class="fs-2 text-center ">FİYAT</p>
+                        <p class="text-center fs-4">@item.Fiyat TL</p>
+                        <input type="hidden" name="Fiyat" value="@item.Fiyat" />
+                        <input type="hidden" name="YolId" value="@item.YolId" />
+
+
+                    </div>
+                    <div class="col-1 border border-info d-flex justify-content-center align-items-center">
+                        <button type="submit" class="btn btn-primary">REZERVE</button>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    }
+}
+
+

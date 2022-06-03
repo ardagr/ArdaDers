@@ -1,0 +1,10 @@
+﻿@model Yolcu
+
+    <div class="container col-m d-12 position-relative">
+        <img style="width: 100%; height: 350px;" src="~/Resimler/rezervasyon.png" alt="">
+        <p style="position: absolute; left: 75%; top: 50px; color: white; text-align: center;">@Model.Nereden - @Model.Nereye</p>
+        <p style="position: absolute; left: 75%; top: 110px; color: white; ">@Model.Tarih</p>
+        <p style="position: absolute; left: 75%; top: 180px; color: white; ">@Model.KoltukNo</p>
+        <p style="position: absolute; left: 75%; top: 245px; color: white; ">@Model.Ad.ToUpper() @Model.Soyad.ToUpper()</p>
+        <p style="position: absolute; left: 75%; top: 310px; color: white;  ">@Model.Fiyat TL</p>
+    </div>

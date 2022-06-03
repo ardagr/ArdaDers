@@ -1,0 +1,79 @@
+﻿@model Yolcu
+
+<form  asp-action="Rezerve" asp-controller="Home" method="post"  >
+   
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">NEREDEN</label>
+        <input type="text" class="form-control" asp-for="Nereden" readonly value="@Model.Nereden">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">NEREYE</label>
+        <input type="text" class="form-control" asp-for="Nereye" readonly value="@Model.Nereye">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">TARİH</label>
+        <input type="date" class="form-control" asp-for="Tarih" readonly value="@Model.Tarih">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">SAAT</label>
+        <input type="text" class="form-control" asp-for="Saat" readonly value="@Model.Saat">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">FİYAT</label>
+        <input  type="text" class="form-control" asp-for="Fiyat" readonly value="@Model.Fiyat" >
+       
+    </div>
+    <div class="mb-3">
+        <label  class="form-label">AD</label>
+        <input  type="text" class="form-control" asp-for="Ad" minlength="3" required="">
+        
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">SOYAD</label>
+        <input type="text" class="form-control" asp-for="Soyad" minlength="3" required="">
+       
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">KOLTUK NO</label>
+        <select asp-for="KoltukNo" class="form-select">
+            @foreach (var koltuk in ViewBag.koltuklar)
+            {
+                <option>@koltuk</option>
+            }
+        </select>
+    </div>
+
+    <input type="hidden" class="form-control" asp-for="YolId" readonly value="@Model.YolId">
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >REZERVE ET</button>
+
+    <!-- Button trigger modal -->
+   
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">BİLET REZERVE BİLGİLERİ</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    
+                    <p>@Model.Nereden - @Model.Nereye </p>
+                    <p>TARİH: @Model.Tarih</p>
+                    <p>SAAT : @Model.Saat</p>
+
+                </div>
+                <div class="modal-footer">
+                    <p>BİLETİ REZERVE ETMEK İSTEDİĞİNİZE EMİN MİSİNİZ ?</p>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İPTAL</button>
+                    <button type="submit" class="btn btn-primary">EVET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</form>

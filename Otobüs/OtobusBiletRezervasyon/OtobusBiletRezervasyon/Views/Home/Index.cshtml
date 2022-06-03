@@ -1,0 +1,97 @@
+﻿@model Yol
+<!---BURASI CORUSEL-->
+<div id="carouselExampleInterval" class="carousel slide mt-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active position-relative" style="height: 350px;" data-bs-interval="2000">
+            <img src="https://www.academic-tour.com/resim/media/antiochos.jpg" class="d-block w-100 h-100" alt="...">
+            <h1 class="position-absolute top-50 start-50  translate-middle text-white bg-transparent">ARDA TURİZM TÜRKİYE YOLLARINDA...</h1>
+        </div>
+        <div class="carousel-item " style="height: 350px;" data-bs-interval="2000">
+            <img src="resimler/1141-3.jpg" class="d-block w-100 h-100" alt="...">
+
+        </div>
+        <div class="carousel-item " style="height: 350px;">
+            <img src="https://www.setra-bus.com/content/dam/sbo/markets/common/models/cc-hd-models/models/images/teaser/sbo-teaser-comfortclass-hd-models.jpg" class="d-block w-100 h-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!---BURASI CORUSEL BİTİŞ-->
+<!---BURASI FORM KISMI-->
+<form asp-controller="Home" asp-action="Bilet" method="post">
+    <div class="row container" >
+        <div class="row mt-3" style="height:450px;">
+            <div id="biletmenü" class="col-md-3 col-sm-12" style="height: 100%;">
+                <img style="position:absolute; height:100%; width:100%;" src="~/Resimler/BİLETMENU.png" alt="Alternate Text" />
+                <div class="nereden col-12">
+                    <label>NEREDEN</label>
+                    <select asp-for="Nereden" class="form-select">
+                        @foreach (var sehir in ViewBag.sehirler)
+                        {
+                            <option>@sehir.SehirAd</option>
+                        }
+                    </select>
+                </div>
+                <div class="nereye col-12">
+                    <label>NEREYE</label>
+                    <select asp-for="Nereye" class="form-select">
+                        @foreach (var sehir in ViewBag.sehirler)
+                        {
+                            <option>@sehir.SehirAd</option>
+                        }
+                    </select>
+
+                </div>
+                <div class="tarih col-12">
+                    <label>TARİH</label><br>
+                    <input asp-for="Tarih" class="form-control" type="date">
+                </div>
+
+                <input type="submit" class="position-absolute bottom-0 end-0 border-0 bg-transparent" value="DEVAM ET">
+            </div>
+            <div class="col-md-9 col-sm-12" style="height:100%;">
+                <img src="Resimler/harita.jpg" style="height:100%;width: 100%;" alt="">
+            </div>
+        </div>
+
+  
+
+        <div class="row mt-3 ms-5 " >
+            <div class="col-sm-4  position-relative">
+                <img style="width:100%; height:100%" src="~/Resimler/Seferlerimiz.png" alt="">
+                <a href="" id="sefer">
+                    Sefer düzenlediğimiz güzergahları, sefer özelliklerini ve fiyatları inceleyebilirsiniz.
+                </a>
+            </div>
+            <div class="col-sm-4 position-relative">
+                <img style="width:100%; height:100%" src="~/Resimler/subelerimiz.png" alt="">
+                <a href="" id="sube">
+                    Şubelerimizi inceleyebilir, iletişim bilgilerine ulaşabilirsiniz.
+                </a>
+            </div>
+            <div class="col-sm-4 position-relative">
+                <img style="width:100%; height:100%" src="resimler/Filomuz.png" alt="">
+                <a href="" id="filo">
+                    Otobüslerimizin özelliklerini inceleyebilir, iletişim bilgilerine ulaşabilirsiniz.
+
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+</form>
+
+
+<!---BURASI FORM KISMI BİTİŞ-->
+<!---BURASI SEFER ŞUBE FİLO-->
+
+<!---BURASI SEFER ŞUBE FİLO BİTİŞ-->
