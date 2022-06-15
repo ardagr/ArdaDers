@@ -1,0 +1,3 @@
+Projeyi Çalıştırmak için 
+Öncelikle verilen kodlar ile database oluşturun daha sonra 
+appsettings içinde bulunan adresi kendi sql server adresiniz ile değiştiriniz

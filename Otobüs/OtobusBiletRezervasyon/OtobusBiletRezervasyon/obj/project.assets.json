@@ -1133,11 +1133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon.csproj",
+      "projectUniqueName": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon.csproj",
       "projectName": "OtobusBiletRezervasyon",
-      "projectPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon.csproj",
+      "projectPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon.csproj",
       "packagesPath": "C:\\Users\\ARDA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon\\obj\\",
+      "outputPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBiletRezervasyon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ARDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1154,11 +1154,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Business\\OtobusBileti.Business.csproj": {
-              "projectPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Business\\OtobusBileti.Business.csproj"
+            "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Business\\OtobusBileti.Business.csproj": {
+              "projectPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Business\\OtobusBileti.Business.csproj"
             },
-            "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj": {
-              "projectPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj"
+            "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj": {
+              "projectPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj"
             }
           }
         }

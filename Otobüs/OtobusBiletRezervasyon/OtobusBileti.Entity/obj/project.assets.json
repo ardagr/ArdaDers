@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj",
       "projectName": "OtobusBileti.Entity",
-      "projectPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj",
+      "projectPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj",
       "packagesPath": "C:\\Users\\ARDA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\obj\\",
+      "outputPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ARDA\\AppData\\Roaming\\NuGet\\NuGet.Config",

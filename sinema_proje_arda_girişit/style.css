@@ -1,0 +1,64 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body
+{
+    position: relative;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(26,35,75,0.48783263305322133) 0%, rgba(99,59,59,1) 0%, rgba(0,0,0,1) 82%);  
+}
+a,i{
+    cursor: pointer;
+    font-weight: bold;
+    background: rgb(255,255,255);
+    background: linear-gradient(217deg, rgba(255,255,255,1) 0%, rgba(230,220,220,1) 23%, rgba(247,234,234,1) 40%, rgba(12,27,70,1) 51%, rgba(144,149,171,0.48783263305322133) 59%, rgba(56,67,113,1) 88%);
+}
+.carousel-item
+{
+    height: 400px;
+
+    color:white;
+    position: relative;
+}
+.container
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.col
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#filmadi
+{
+    font-size: 30px;
+  display: flex; 
+  justify-content: center;
+  background: rgb(255,255,255);
+  background: linear-gradient(217deg, rgba(255,255,255,1) 0%, rgba(26,35,75,0.48783263305322133) 0%, rgba(247,234,234,1) 16%, rgba(0,0,0,1) 74%, rgba(40,38,38,1) 86%);
+}
+#resim
+{
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+}
+.foter
+{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+   
+    
+}

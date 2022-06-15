@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ARDA\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ARDA\\.nuget\\packages"
+    ]
+  }
+}

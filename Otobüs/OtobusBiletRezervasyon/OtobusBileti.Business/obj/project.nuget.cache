@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3bTVaBBNDFecNHAowWI19ANY/nkqMXtjoMMLNdUn82Dq6lYdqMm+AaknM56AN0G9lBclhT4id1ekio8ljPiHtg==",
+  "dgSpecHash": "1HmIohDofVAeHePYuJ0hUspGjJu/b85mcvlRS/5DZ3mOry6x4mtKBvI/o3UmXUGLHzrOCkr+SIksrKkXXMxA5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Business\\OtobusBileti.Business.csproj",
+  "projectFilePath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Business\\OtobusBileti.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ARDA\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.16\\microsoft.data.sqlite.core.5.0.16.nupkg.sha512",
     "C:\\Users\\ARDA\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

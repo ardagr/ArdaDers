@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj": {}
+    "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj": {
+    "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj",
         "projectName": "OtobusBileti.Data",
-        "projectPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj",
+        "projectPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj",
         "packagesPath": "C:\\Users\\ARDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\obj\\",
+        "outputPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ARDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj": {
-                "projectPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj"
+              "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj": {
+                "projectPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj": {
+    "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj",
         "projectName": "OtobusBileti.Entity",
-        "projectPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj",
+        "projectPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\OtobusBileti.Entity.csproj",
         "packagesPath": "C:\\Users\\ARDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\obj\\",
+        "outputPath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ARDA\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,2 +1,3 @@
 kullanıcı=admin
 şifre=admin123
+Proje Sqlite ile yapılmıştır Otomatik çalışır

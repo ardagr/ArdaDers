@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-2 fs-5  d-flex align-items-center"><i class="fa-solid fa-video me-5"></i><a>WİSSENCİNEMA</a>
+            </div>
+            <div class="col-8 d-flex justify-content-around align-items-center">
+                <a>SALON 1</a>
+                <a>SALON 2</a>
+                <a>SALON 3</a>
+                <a>SALON 4</a>
+                <a>SALON 5</a>
+                <a>İLETİŞİM</a>
+            </div>
+            <div class="col-2 d-flex align-items-center"><input style="width: 100%;" type="text" name="" id=""
+                    placeholder="ARA..."></div>
+        </div>
+
+    </div>
+    <div class="konteynir">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="data:image/jpeg;base64,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"
+                        class="d-block w-100 h-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>300 SPARTALI</h5>
+                        <p>Sparta Kralı, son derece kuvvetli bir ordu ile karşı karşıyadır çünkü Pers Kralı Xerxes,
+                            sahip olduğu gücü, çoktan Yunan Krallıkları üzerine salmıştır. Sparta Kralı, bu durumla baş
+                            edebilmek için çareyi yürekleri kocaman olan cesur 300 askerini toplamakta bulur.Tanrıları
+                            savaşa ikna edememiştir. Bu savşaçı yetiştirilmiş 300 asker, şartların zorluğuna rağmen ve
+                            ölmek pahasına Thermopylae’de Perslilerle savaşmaya hazırdır. Öte yandan konsey savaşmama
+                            kararı alarak bir hata yapar. Bu durumun da üstesinden gelip ordunun savaşa gitmesini
+                            beklemeleri gerekecektir. Zack Synder yönetmenliğindeki film, Fran Miller’in romanından
+                            uyarlanmıştır.</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="https://iasbh.tmgrup.com.tr/f62c21/0/0/0/0/0/0?u=http://i.teknokulis.com/galeri/galeriteknoloji/twitterda-en-iyi-33-baslik-fotografi/06.jpg&mw=752&mh=700"
+                        class="d-block w-100 h-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>LEON</h5>
+                        <p class="  ">
+                            Sevginin Gücü, masum bir kız ve bir katilin hikayesini anlatıyor. Onların birbirlerinden
+                            başka kaybedecek hiçbir şeyleri yok. Erkek duygusuzca öldürüyor. Zayıf noktasını sadece 12
+                            yaşındaki bir kız biliyor.12 yaşında New York’ta yaşayan Mathilda, üvey ailesinin yanında
+                            sevimsiz bir yaşamı paylaşmaktadır. Babası, iki taraflı oynayan bozulmuş polis için
+                            uyuşturucu saklamaktadır. Mathilda’yı kaçıp gitmekten tek alıkoyan küçük erkek kardeşidir.
+                            Bir gün, tüm ailesinin katledeildiği zaman alışverişte olan Mathilda şans eseri hayatta
+                            kalır ve en çok ihtiyacı olduğu sırada Léon’un dairesine saklanarak kendini kurtarır.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://iasbh.tmgrup.com.tr/a05a14/0/0/0/0/0/0?u=http://i.teknokulis.com/galeri/galeriteknoloji/twitterda-en-iyi-33-baslik-fotografi/21.jpg&mw=752&mh=700"
+                        class="d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>YUKARI BAK</h5>
+                        <p>Yukarı Bak'ta rastlantı eseri yolları kesişen iki çocuk, yıllarca sürecek tatlı ve dokunaklı
+                            bir hikayenin başkahramanlarıdır. Maceracı doğan ve hayattaki her şeye dair çocuksu saf
+                            meraklar barındıran Ellie’nin tek hayali dünyayı gezebilmektir. Carl ise sessizliği ve
+                            dinginliğiyle örttüğü maceraperestliği ve kocaman kalbiyle Ellie’nin tek isteğini
+                            gerçekleştirebilmeyi dilemektedir. İki küçük çocuk büyür, evlenir, yaşlanır... Ölüm
+                            Ellie’nin kapısını çalar, Carl ise sevdiğinden kalan tek şeyi, bu çocuksu hayali
+                            gerçekleştirmeye koyulur.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="filmler">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/fullhd-direnc-resistance-izle.jpg?0.9531805547392082"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">RESISTANCE</h5>
+                        <p class="card-text">Marcel Marceau dünya çapında çok büyük bir hayran kitlesine ve de başarıya
+                            sahip bir pandomimcidir. Ancak Marcel Marceau aynı zamanda Yahudi bir aktördür de. Marcel bu
+                            yüzden de Fransız direnişine katılmıştır ve bu direnişte de çok özel bir görevi
+                            bulunmaktadır. Marcel bu direnişte Nazi işgali ve sonrasında yetim kalmış olan çocukları
+                            kurtarmakla görevliydi.</p>
+                        <a href="#" class="btn btn-primary">TIKLA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/fullhd-legacy-of-lies.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yalanlar İçinde - Legacy of Lies</h5>
+                        <p class="card-text">Martin Baxter’ın işi oldukça tehlikeli işlerden biridir ve bu işinde
+                            kendisine verilen görevler her an hayatının bir noktasında karşısına çıkabilir. Martin
+                            Baxter anlaşıldığı üzere bir MI6 ajanıdır ve yeni görevinde de Rusya’ya gönderilmiştir. Bu
+                            görevindeki işi ise bir gazeteci kılığında Amerika’da çalışmakta olan Rus çifte ajanların
+                            kimliğini ortaya çıkartmak için bilgi toplamaktır</p>
+                        <a href="#" class="btn btn-primary">TIKLA</a>
+                    </div>
+                </div>
+            </div>
+            <div" class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/stillwater-52364.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Stillwater</h5>
+                        <p class="card-text">2021 Focus Features'ın piyasaya sürdüğü ve sitemizde Türkçe dublajının da
+                            sağlandığı Stillwater suç ve gerilim dramı, Fransa'nın Marsilya kentinde yaşarken ve okurken
+                            işlemediği bir suçtan haksız yere suçlanan genç bir Amerikalı kızın hikayesini anlatıyor.
+                            Matt Damon (Good Will Hunting), bu suç dramasında, kızının masumiyetini kanıtlamayı kendine
+                            görev edinen,</p>
+                        <a href="#" class="btn btn-primary">TIKLA</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/after-the-pandemic-30646.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">After the Pandemic</h5>
+                    <p class="card-text">Richard Lowry tarafından yazılmış ve yönetilmiş olan 4k formatındaki After the
+                        Pandemic isimli yapım, ortaya çıkmış olan yeni virüsün ölüm oranının %1 değil, %98 olduğu bir
+                        kurguyu anlatmaktadır. Filmin başrolleri Eve James, Kannon Smith ve Lelyn Mac tarafından
+                        oluşmaktadır.</p>
+                    <a href="#" class="btn btn-primary">TIKLA</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/the-girl-on-the-mountain-4680.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The Girl on the Mountain</h5>
+                    <p class="card-text">Jack ormanın uçsuz bucaksız vahşi doğasında tek başına yaşamaya karar veren ve
+                        geçmişinden kaçmak isteyen bir adamdır. Jack burada huzuru aramaktadır ve yaşadığı aile
+                        trajedisini unutmaya çalışmaktadır. Bir gün Jack yüzünü nehirde yıkarken çantasını küçük bir kız
+                    </p>
+                    <a href="#" class="btn btn-primary">TIKLA</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/the-prototype-12281.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The Prototype</h5>
+                    <p class="card-text">4k film formatındaki The Prototype filminde, Garrett Brown korkunç bir dönemde
+                        yaşamaktadır ve bu korkunç dönemde ise uzaylı teröristler ve nükleer savaş hüküm sürmektedir.
+                        Garrett bu sırada ise Rahip Jeremiah C. Hope’un önderlik ettiği uzaylı terörist grupla
+                        savaşmaktadır. </p>
+                    <a href="#" class="btn btn-primary">TIKLA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/nightride-52942.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nightride</h5>
+                    <p class="card-text">Budge bilindik bir uyuşturucu satıcısıdır ve hayatının oldukça uzun bir kısmını
+                        da bu şekilde geçirmiştir. Çok büyük oynamayan ancak çok da küçük sayılmayan Budge son
+                        zamanlarda bu pis hayattan sıkılmış ve kendisine yeni bir hayat kurmayı istemiştir.</p>
+                    <a href="#" class="btn btn-primary">TIKLA</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/fresh-60122.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fresh</h5>
+                    <p class="card-text">Senaryosu Lauryn Kahn tarafından yazılan ve yönetmenliğini Mimi Cave’in
+                        üstlendiği 4k film format da siz değerli takipçilerimiz için hazır edilen Fresh, 2022 yılında
+                        yayınlanmış bir Amerikan</p>
+                    <a href="#" class="btn btn-primary">TIKLA</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/fullhd-harry-potter-ve-felsefe-tasi-filmini-full-hd-izle.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Harry Potter 1 Felsefe Taşı</h5>
+                    <p class="card-text">Harry Potter, muggle (büyücü veya cadı olmayan insanlar) amcası ve halasıyla
+                        birlikte sıradan ve zorluklarla dolu bir hayatı yaşamaktayken, bir gün yılanlarla
+                        konuşabildiğini, öfkelenip kızgınlık duyduğu zamanlarda evdeki eşyaları hareket ettirebildiğini
+                        fark edecektir.</p>
+                    <a href="#" class="btn btn-primary">TIKLA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col ">
+            <div class="card" style="width: 18rem;">
+                <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/nightride-52942.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nightride</h5>
+                    <p class="card-text">Budge bilindik bir uyuşturucu satıcısıdır ve hayatının oldukça uzun bir kısmını
+                        da bu şekilde geçirmiştir. Çok büyük oynamayan ancak çok da küçük sayılmayan Budge son
+                        zamanlarda bu pis hayattan sıkılmış ve kendisine yeni bir hayat kurmayı istemiştir.</p>
+                    <a href="#" class="btn btn-primary">TIKLA</a>
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+
+
+    </div>
+    </div>
+    <div class="afis  ">
+        <div id="filmadi" >FİLM ADI</div>
+        <div class="row">
+            <div class="col"><div class="card" style="width: 250px; height: 380px; margin-left: 300px;">
+                <div class="card-body">
+                  <h5 class="card-title">LEGACY OF LIES</h5>
+                  <p class="card-text">Budge bilindik bir uyuşturucu satıcısıdır ve hayatının oldukça uzun bir kısmını da bu şekilde geçirmiştir. Çok büyük oynamayan ancak çok da küçük sayılmayan Budge son zamanlarda bu pis hayattan sıkılmış ve kendisine yeni bir hayat kurmayı istemiştir.</p>
+                 
+                </div>
+              </div></div>
+            <div  class="col ">
+                <div class="card-body">
+                    <img src="https://resim.fullhdfilmizlesene.pw/mdsresim_izle/fullhd-legacy-of-lies.jpg" alt="">
+                    
+            </div>
+        </div>
+    </div>
+   <div class="foter ">
+       <p>COPRİGHT 2022</p>
+       <p>BİZE ULAŞIN</p>
+       <p>KVKK </p>
+   </div>
+
+</body>
+
+</html>

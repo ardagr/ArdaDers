@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mtz48YPcPpQx3PpNpEQ0ggWJRCu6yQfWGpK9SuzJYjvCPTU5l2xY+FiO+SbLMpzE4a57B4D7HE6j0h2xcO8tmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ARDA\\Desktop\\Web_7_Projects\\Week_14\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ARDA\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\ARDA\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\ARDA\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ARDA\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

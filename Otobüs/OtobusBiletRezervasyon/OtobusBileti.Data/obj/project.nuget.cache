@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lW5yswlUfhZWZMJqrvSPId+6+IDiYATe2oSihzqaM1IwJ9B0RyeQ5HXTDDlUTSASSw1dF2kmC3NBSsjO0ENVTQ==",
+  "dgSpecHash": "3JwCsoA1WjQTiWGlpRTVhKc79qx2LPRYGHNUXB4vPydcjqPyjLB3uPbDr9LwgZ00EPiVcAPQrYhD73SE7l5XpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ARDA\\Desktop\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj",
+  "projectFilePath": "C:\\Users\\ARDA\\Desktop\\GİTHUPP\\Otobüs\\OtobusBiletRezervasyon\\OtobusBileti.Data\\OtobusBileti.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ARDA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ARDA\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
